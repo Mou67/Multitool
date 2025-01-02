@@ -8,17 +8,18 @@ chcp 437 >nul
 cls
 color 0B
 echo.
-echo                   __    __     __  __     __         ______   __     ______   ______     ______     __        
-echo                  /\ "-./  \   /\ \/\ \   /\ \       /\__  _\ /\ \   /\__  _\ /\  __ \   /\  __ \   /\ \       
-echo                  \ \ \-./\ \  \ \ \_\ \  \ \ \____  \/_/\ \/ \ \ \  \/_/\ \/ \ \ \/\ \  \ \ \/\ \  \ \ \____  
-echo                   \ \_\ \ \_\  \ \_____\  \ \_____\    \ \_\  \ \_\    \ \_\  \ \_____\  \ \_____\  \ \_____\ 
-echo                    \/_/  \/_/   \/_____/   \/_____/     \/_/   \/_/     \/_/   \/_____/   \/_____/   \/_____/ 
+echo  __    __     __  __     __         ______   __     ______   ______     ______     __        
+echo /\ "-./  \   /\ \/\ \   /\ \       /\__  _\ /\ \   /\__  _\ /\  __ \   /\  __ \   /\ \       
+echo \ \ \-./\ \  \ \ \_\ \  \ \ \____  \/_/\ \/ \ \ \  \/_/\ \/ \ \ \/\ \  \ \ \/\ \  \ \ \____  
+echo  \ \_\ \ \_\  \ \_____\  \ \_____\    \ \_\  \ \_\    \ \_\  \ \_____\  \ \_____\  \ \_____\ 
+echo   \/_/  \/_/   \/_____/   \/_____/     \/_/   \/_/     \/_/   \/_____/   \/_____/   \/_____/ 
 echo.
-echo   [1] System Information
-echo   [2] Network Tools
-echo   [3] Disk Management
-echo   [4] System Maintenance
-echo   [5] Exit
+echo                                     MAIN MENU                                     
+echo   [1] System Information                                                          
+echo   [2] Network Tools                                                               
+echo   [3] Disk Management                                                             
+echo   [4] System Maintenance                                                          
+echo   [5] Exit                                                                        
 echo.
 set /p choice="Enter your choice [1-5]: "
 
@@ -30,7 +31,7 @@ if "%choice%"=="5" exit
 
 :sysinfo
 cls
-color 0B
+color 0A
 echo.
 echo                                SYSTEM INFORMATION                                    
 echo.
@@ -40,7 +41,7 @@ goto menu
 
 :network
 cls
-color 0B
+color 0C
 echo                                  NETWORK TOOLS                                      
 echo.
 echo  [1] IP Configuration
@@ -62,7 +63,7 @@ goto network
 
 :disk
 cls
-color 0B
+color 0E
 echo                                DISK MANAGEMENT                                      
 echo.
 echo  [1] Disk Space
@@ -77,7 +78,7 @@ goto disk
 
 :maintenance
 cls
-color 0B
+color 0D
 echo                               SYSTEM MAINTENANCE                                    
 echo.
 echo  [1] Clean Temp Files
