@@ -52,6 +52,8 @@ Displays detailed information about your system using the `systeminfo` command.
 - **[2] System File Check**: Performs a system file check using `sfc /scannow`.
 - **[3] Back to Main Menu**: Returns to the main menu.
 
+## Download [here](https://github.com/Mou67/Multitool/releases/download/MULTITOOL/MULTITOOL.bat)
+
 ## License
 This project is licensed under the MIT License.
 
